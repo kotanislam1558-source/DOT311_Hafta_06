@@ -1,18 +1,19 @@
 {
-  "name": "dot311_hafta_06",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
-  },
-  "dependencies": {
-    "expo": "~58.0.26",
-    "expo-status-bar": "~58.0.5",
-    "react": "19.3.0",
-    "react-native": "0.88.1"
-  },
-  "private": true
+    "name":  "dot311_hafta_06",
+    "version":  "1.0.0",
+    "main":  "index.js",
+    "scripts":  {
+                    "start":  "expo start --go",
+                    "android":  "expo start --android",
+                    "ios":  "expo start --ios",
+                    "web":  "expo start --web",
+                    "tunnel":  "expo start --go --tunnel"
+                },
+    "dependencies":  {
+                         "expo":  "~58.0.26",
+                         "expo-status-bar":  "~58.0.5",
+                         "react":  "19.3.0",
+                         "react-native":  "0.88.1"
+                     },
+    "private":  true
 }
